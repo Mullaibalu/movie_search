@@ -86,7 +86,7 @@ const App = () => {
             }
           />
 
-          {/* Movie Details Page */}
+        
           <Route path="/movie/:imdbID" element={<MovieDetails />} />
         </Routes>
       </div>

@@ -7,6 +7,7 @@ const MovieCard = ({ movie, addToFavorites, isFavorite }) => {
       <Link to={`/movie/${movie.imdbID}`}>
         <img src={movie.Poster} alt={movie.Title} />
       </Link>
+      
       <h3>{movie.Title} ({movie.Year})</h3>
       {isFavorite ? (
         <button disabled>⭐ Favorite</button>

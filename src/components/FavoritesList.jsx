@@ -4,6 +4,7 @@ const FavoritesList = ({ favorites, removeFromFavorites }) => {
   return (
     <div className="favorites-section">
       <h2>⭐ Favorite Movies</h2>
+      
       {favorites.length === 0 ? (
         <p>No favorites yet.</p>
       ) : (
